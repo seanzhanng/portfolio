@@ -31,7 +31,7 @@ export default function Navbar() {
         {/* Right: More spaced PNG icons */}
         <div className="flex space-x-10">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/seanzhanng"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -45,7 +45,7 @@ export default function Navbar() {
             />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/seanzhanng"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -59,7 +59,7 @@ export default function Navbar() {
             />
           </a>
           <a
-            href="/SeanZhangResume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Resume"
