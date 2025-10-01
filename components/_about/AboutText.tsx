@@ -1,4 +1,3 @@
-// AboutText.tsx
 export default function AboutText() {
   return (
     <>
@@ -26,12 +25,12 @@ export default function AboutText() {
         >
           pianofi
         </a>{" "}
-        (watai).
+        (wat.ai).
       </p>
 
       <p className="text-lg leading-relaxed lowercase">
         outside of tech, i enjoy swimming, walks in nature, sky photography, and
-        listening to music across all genres.
+        listening to music across many genres.
       </p>
     </>
   );

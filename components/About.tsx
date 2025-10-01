@@ -1,4 +1,3 @@
-// AboutSection.tsx
 import AboutHeader from "./_about/AboutHeader";
 import AboutText from "./_about/AboutText";
 import AboutCarousel from "./_about/AboutCarousel";

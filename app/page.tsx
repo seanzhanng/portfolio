@@ -1,6 +1,6 @@
-import HomeSection from "@/components/_sections/Home";
+import HomeSection from "@/components/Home";
 import AboutSection from "@/components/About";
-import ContactSection from "@/components/_sections/Contact";
+import ContactSection from "@/components/Contact";
 
 export default function Page() {
   return (

@@ -6,7 +6,7 @@ export default function ContactSection() {
         <p className="text-lg mb-4">
           feel free to reach out to me on{" "}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/seanzhanng"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
@@ -19,10 +19,10 @@ export default function ContactSection() {
             className="text-blue-600 hover:underline"
           >
             email
-          </a>
-          , or on{" "}
+          </a>{" "}
+          (sean.zhang1@uwaterloo.ca), or on{" "}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/seanzhanng"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
