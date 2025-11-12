@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="mb-6">
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-800">TradeStream</h3>
-          <a
+          {/* <a
             href="https://github.com/seanzhanng/TradeStream"
             target="_blank"
             rel="noopener noreferrer"
@@ -22,7 +22,7 @@ export default function Projects() {
               height={24}
               className="hover:opacity-75 transition-opacity"
             />
-          </a>
+          </a> */}
         </div>
 
         <p className="text-lg mt-1 text-gray-800">
