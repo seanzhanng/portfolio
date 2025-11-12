@@ -7,8 +7,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div className="pt-20 mx-auto w-2/5">{children}</div>
+      <body className="pt-10 flex justify-center">
+        <div className="w-full lg:w-[40%] p-6">{children}</div>
       </body>
     </html>
   );

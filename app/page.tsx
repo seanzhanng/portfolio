@@ -6,7 +6,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="text-gray-900 p-6 max-w-3xl mx-auto space-y-12">
+    <main className="text-gray-900 space-y-12">
       <Header />
       <Work />
       <Projects />
