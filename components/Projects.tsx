@@ -72,7 +72,7 @@ export default function Projects() {
 
       <div className="mb-6">
         <div className="flex items-center gap-3">
-          <h3 className="text-xl font-semibold text-gray-800">wakeguard</h3>
+          <h3 className="text-xl font-semibold text-gray-800">fairsplit</h3>
         </div>
 
         <p className="text-lg mt-1 text-gray-800">

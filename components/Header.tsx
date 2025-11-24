@@ -51,9 +51,12 @@ export default function Header() {
 
       <div className="text-lg space-y-3">
         <p>{"i'm a cs student and varsity swimmer at uwaterloo"}</p>
-        <p>i like to build software, explore ai/ml, and work with data systems</p>
         <p>
-          outside of tech, i love sleeping, hanging out with friends, and listening to music
+          i like to build software, explore ai/ml, and work with data systems
+        </p>
+        <p>
+          outside of tech, i love sleeping, hanging out with friends, and
+          listening to music
         </p>
       </div>
     </section>
