@@ -9,7 +9,7 @@ export default function Projects() {
 
       <div className="mb-6">
         <div className="flex items-center gap-3">
-          <h3 className="text-xl font-semibold text-gray-800">TradeStream</h3>
+          <h3 className="text-xl font-semibold text-gray-800">tradestream</h3>
           {/* <a
             href="https://github.com/seanzhanng/TradeStream"
             target="_blank"
@@ -26,8 +26,57 @@ export default function Projects() {
         </div>
 
         <p className="text-lg mt-1 text-gray-800">
-          a financial data streaming and visualization platform for traders and
-          analysts
+          a market data streaming platform for traders and analysts
+        </p>
+      </div>
+
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <h3 className="text-xl font-semibold text-gray-800">coursecraft</h3>
+        </div>
+
+        <p className="text-lg mt-1 text-gray-800">
+          a course/class schedule builder for students
+        </p>
+      </div>
+
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <h3 className="text-xl font-semibold text-gray-800">swimset</h3>
+        </div>
+
+        <p className="text-lg mt-1 text-gray-800">
+          a swim workout builder and dsl parser for coaches 
+        </p>
+      </div>
+
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <h3 className="text-xl font-semibold text-gray-800">queuesavor</h3>
+        </div>
+
+        <p className="text-lg mt-1 text-gray-800">
+          a crowdsource service that estimates wait times at restaurants
+        </p>
+      </div>
+
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <h3 className="text-xl font-semibold text-gray-800">wakeguard</h3>
+        </div>
+
+        <p className="text-lg mt-1 text-gray-800">
+          a focus tool for students and drivers using cv
+        </p>
+      </div>
+
+      <div className="mb-6">
+        <div className="flex items-center gap-3">
+          <h3 className="text-xl font-semibold text-gray-800">wakeguard</h3>
+        </div>
+
+        <p className="text-lg mt-1 text-gray-800">
+          a bill splitting app for group dinners
         </p>
       </div>
     </section>
