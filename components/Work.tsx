@@ -26,6 +26,16 @@ export default function Work() {
           across departments
         </p>
       </div>
+
+      <div className="mb-6">
+        <div className="flex justify-between items-baseline">
+          <h3 className="text-xl font-semibold text-gray-800">City of Mississauga</h3>
+          <p className="text-sm text-gray-600">Dec. 2023 – Jun. 2025</p>
+        </div>
+        <p className="text-lg mt-1">
+          oversaw aquatic staff during public swims and lessons
+        </p>
+      </div>
     </section>
   );
 }

@@ -55,7 +55,7 @@ export default function Header() {
           i like to build software, explore ai/ml, and work with data systems
         </p>
         <p>
-          outside of tech, i love sleeping, hanging out with friends, and
+          outside of tech, i love swimming, sleeping, hanging out with friends, and
           listening to music
         </p>
       </div>
