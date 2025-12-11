@@ -10,8 +10,8 @@ export default function Projects() {
       <div className="mb-6">
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-800">tradestream</h3>
-          {/* <a
-            href="https://github.com/seanzhanng/TradeStream"
+          <a
+            href="https://github.com/seanzhanng/tradestream"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,7 @@ export default function Projects() {
               height={24}
               className="hover:opacity-75 transition-opacity"
             />
-          </a> */}
+          </a>
         </div>
 
         <p className="text-lg mt-1 text-gray-800">
@@ -43,6 +43,19 @@ export default function Projects() {
       <div className="mb-6">
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-800">swimset</h3>
+          <a
+            href="https://github.com/seanzhanng/swimset"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/github.png"
+              alt="GitHub link"
+              width={24}
+              height={24}
+              className="hover:opacity-75 transition-opacity"
+            />
+          </a>
         </div>
 
         <p className="text-lg mt-1 text-gray-800">
@@ -63,20 +76,23 @@ export default function Projects() {
       <div className="mb-6">
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-800">wakeguard</h3>
+          <a
+            href="https://github.com/seanzhanng/wakeguard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/github.png"
+              alt="GitHub link"
+              width={24}
+              height={24}
+              className="hover:opacity-75 transition-opacity"
+            />
+          </a>
         </div>
 
         <p className="text-lg mt-1 text-gray-800">
           a focus tool for students and drivers using cv
-        </p>
-      </div>
-
-      <div className="mb-6">
-        <div className="flex items-center gap-3">
-          <h3 className="text-xl font-semibold text-gray-800">fairsplit</h3>
-        </div>
-
-        <p className="text-lg mt-1 text-gray-800">
-          a bill splitting app for group dinners
         </p>
       </div>
     </section>
