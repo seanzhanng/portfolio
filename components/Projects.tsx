@@ -94,29 +94,7 @@ export default function Projects() {
           a course/class schedule builder
         </p>
       </div>
-
-      <div className="mb-6">
-        <div className="flex items-center gap-3">
-          <h3 className="text-xl font-semibold text-gray-800">beatfit</h3>
-          <a
-            href="https://github.com/seanzhanng/beatfit"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/github.png"
-              alt="GitHub link"
-              width={24}
-              height={24}
-              className="hover:opacity-75 transition-opacity"
-            />
-          </a>
-        </div>
-        <p className="text-lg mt-1 text-gray-800">
-          a guitar practice tool that analyzes timing and beat accuracy
-        </p>
-      </div>
-
+      
       <div className="mb-6">
         <div className="flex items-center gap-3">
           <h3 className="text-xl font-semibold text-gray-800">queuesavor</h3>
