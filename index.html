@@ -4,9 +4,207 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sean Zhang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="app-container">
+      <div class="content-wrapper">
+        <main class="main-content">
+          <section>
+            <div class="header-top">
+              <h1 class="header-title">Sean Zhang</h1>
+
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/seanzhanng/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/linkedin.png"
+                    alt="LinkedIn"
+                    class="icon-medium hover-fade"
+                  />
+                </a>
+                <a
+                  href="https://github.com/seanzhanng/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub"
+                    class="icon-medium hover-fade"
+                  />
+                </a>
+                <a href="mailto:sean.zhang1@uwaterloo.ca">
+                  <img
+                    src="/icons/email.png"
+                    alt="Email"
+                    class="icon-medium hover-fade"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="bio-section">
+              <p>i'm a cs student and varsity swimmer at uwaterloo</p>
+              <p>
+                i like to build software, explore ai/ml, and work with data
+                systems
+              </p>
+              <p>
+                outside of tech, i enjoy swimming, sleeping, speedcubing, and
+                practicing guitar
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="section-heading">Work</h2>
+
+            <div class="work-item">
+              <div class="work-header">
+                <h3 class="item-title">WAT.ai</h3>
+                <p class="work-date">Sept. 2025 – Present</p>
+              </div>
+              <p class="item-description">
+                building an ai-powered music transcription system that converts
+                any song into professional piano sheet music
+              </p>
+            </div>
+
+            <div class="work-item">
+              <div class="work-header">
+                <h3 class="item-title">APi Group</h3>
+                <p class="work-date">Jun. 2025 – Aug. 2025</p>
+              </div>
+              <p class="item-description">
+                built internal software systems to improve efficiency and reduce
+                costs across departments
+              </p>
+            </div>
+
+            <div class="work-item">
+              <div class="work-header">
+                <h3 class="item-title">City of Mississauga</h3>
+                <p class="work-date">Dec. 2023 – Jun. 2025</p>
+              </div>
+              <p class="item-description">
+                oversaw aquatic staff during public swims and lessons
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="section-heading">Projects</h2>
+
+            <div class="project-item">
+              <div class="project-header">
+                <h3 class="item-title">tradestream</h3>
+                <a
+                  href="https://github.com/seanzhanng/tradestream"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub link"
+                    class="icon-small hover-fade"
+                  />
+                </a>
+              </div>
+              <p class="project-description">
+                a real time market data streaming platform
+              </p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <h3 class="item-title">swimset</h3>
+                <a
+                  href="https://github.com/seanzhanng/swimset"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub link"
+                    class="icon-small hover-fade"
+                  />
+                </a>
+              </div>
+              <p class="project-description">
+                a swim workout builder and dsl parser
+              </p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <h3 class="item-title">wakeguard</h3>
+                <a
+                  href="https://github.com/seanzhanng/wakeguard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub link"
+                    class="icon-small hover-fade"
+                  />
+                </a>
+              </div>
+              <p class="project-description">
+                a cv focus tool that tracks drowsiness and distraction
+              </p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <h3 class="item-title">coursecraft</h3>
+                <a
+                  href="https://github.com/seanzhanng/coursecraft"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub link"
+                    class="icon-small hover-fade"
+                  />
+                </a>
+              </div>
+              <p class="project-description">a course/class schedule builder</p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <h3 class="item-title">queuesavor</h3>
+                <a
+                  href="https://github.com/seanzhanng/queuesavor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/icons/github.png"
+                    alt="GitHub link"
+                    class="icon-small hover-fade"
+                  />
+                </a>
+              </div>
+              <p class="project-description">
+                a crowdsource service that estimates wait times at restaurants
+              </p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
   </body>
 </html>
