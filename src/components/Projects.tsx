@@ -1,7 +1,3 @@
-"use client";
-
-import Image from "next/image";
-
 export default function Projects() {
   return (
     <section>
@@ -15,7 +11,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub link"
               width={24}
@@ -37,7 +33,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub link"
               width={24}
@@ -59,7 +55,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub link"
               width={24}
@@ -81,7 +77,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub link"
               width={24}
@@ -103,7 +99,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub link"
               width={24}

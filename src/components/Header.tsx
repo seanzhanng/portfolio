@@ -1,7 +1,3 @@
-"use client";
-
-import Image from "next/image";
-
 export default function Header() {
   return (
     <section>
@@ -14,7 +10,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/linkedin.png"
               alt="LinkedIn"
               width={28}
@@ -28,7 +24,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               src="/github.png"
               alt="GitHub"
               width={28}
@@ -38,7 +34,7 @@ export default function Header() {
           </a>
 
           <a href="mailto:sean.zhang1@uwaterloo.ca">
-            <Image
+            <img
               src="/email.png"
               alt="Email"
               width={28}
